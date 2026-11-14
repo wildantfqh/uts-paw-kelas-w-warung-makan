@@ -1,11 +1,809 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Daftar menu Warung Makan Bu Lina yang terdiri dari makanan, cemilan, dan minuman.">
+
+    <title>Menu | Warung Makan Bu Lina</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- CSS Buatan Sendiri -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- Skip Link -->
+    <a href="#konten-utama" class="skip-link">
+        Lewati ke konten utama
+    </a>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    🍃 Warung Bu Lina
+                </a>
+
+
+                <!-- Tombol Navbar Mobile -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarUtama"
+                    aria-controls="navbarUtama"
+                    aria-expanded="false"
+                    aria-label="Buka navigasi">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+                <!-- Navigasi -->
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarUtama">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="index.html">
+                                Beranda
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="menu.html">
+                                Menu
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="promo.html">
+                                Promo
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="tentang.html">
+                                Tentang Kami
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="btn btn-pesan"
+                               href="pemesanan.html">
+                                Pesan Sekarang
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main id="konten-utama">
+
+
+        <!-- JUDUL HALAMAN -->
+        <section class="page-hero">
+
+            <div class="container text-center">
+
+                <p class="section-label">
+                    MENU WARUNG BU LINA
+                </p>
+
+                <h1>
+                    Pilih Menu Favoritmu
+                </h1>
+
+                <p>
+                    Nikmati berbagai pilihan makanan, cemilan,
+                    dan minuman yang tersedia di Warung Makan Bu Lina.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- NAVIGASI KATEGORI -->
+        <section class="category-navigation">
+
+            <div class="container">
+
+                <nav aria-label="Navigasi kategori menu">
+
+                    <ul class="category-links">
+
+                        <li>
+                            <a href="#makanan">
+                                🍛 Makanan
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#cemilan">
+                                🍟 Cemilan
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#minuman">
+                                🥤 Minuman
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================== -->
+        <!-- KATEGORI MAKANAN -->
+        <!-- ======================== -->
+
+        <section
+            id="makanan"
+            class="menu-section section-padding">
+
+            <div class="container">
+
+
+                <div class="category-title text-center">
+
+                    <p class="section-label">
+                        KATEGORI 1
+                    </p>
+
+                    <h2>
+                        🍛 Makanan
+                    </h2>
+
+                    <p>
+                        Pilihan makanan untuk menemani waktu makan Anda.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- Seblak -->
+                    <div class="col-sm-6 col-lg-4">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/makanan/seblak.jpg"
+                                class="img-fluid menu-image"
+                                alt="Seblak pedas">
+
+                            <div class="menu-content">
+
+                                <h3>Seblak</h3>
+
+                                <p>
+                                    Seblak dengan rasa gurih dan
+                                    pilihan tingkat kepedasan.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp10.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Mie Level -->
+                    <div class="col-sm-6 col-lg-4">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/makanan/mie-level.jpg"
+                                class="img-fluid menu-image"
+                                alt="Mie level pedas">
+
+                            <div class="menu-content">
+
+                                <h3>Mie Level</h3>
+
+                                <p>
+                                    Mie dengan pilihan tingkat
+                                    kepedasan sesuai selera.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp12.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Mie Tek Tek -->
+                    <div class="col-sm-6 col-lg-4">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/makanan/mie-tek-tek.jpg"
+                                class="img-fluid menu-image"
+                                alt="Mie tek tek">
+
+                            <div class="menu-content">
+
+                                <h3>Mie Tek Tek</h3>
+
+                                <p>
+                                    Mie tek tek dengan bumbu khas
+                                    yang gurih dan menggugah selera.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp12.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================== -->
+        <!-- KATEGORI CEMILAN -->
+        <!-- ======================== -->
+
+        <section
+            id="cemilan"
+            class="menu-section section-padding">
+
+            <div class="container">
+
+
+                <div class="category-title text-center">
+
+                    <p class="section-label">
+                        KATEGORI 2
+                    </p>
+
+                    <h2>
+                        🍟 Cemilan
+                    </h2>
+
+                    <p>
+                        Cemilan ringan yang cocok dinikmati
+                        saat bersantai.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- Tahu Gejrot -->
+                    <div class="col-sm-6 col-lg-3">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/cemilan/tahu-gejrot.jpg"
+                                class="img-fluid menu-image"
+                                alt="Tahu gejrot">
+
+                            <div class="menu-content">
+
+                                <h3>Tahu Gejrot</h3>
+
+                                <p>
+                                    Tahu dengan kuah khas yang
+                                    segar dan lezat.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp8.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Cireng -->
+                    <div class="col-sm-6 col-lg-3">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/cemilan/cireng.jpg"
+                                class="img-fluid menu-image"
+                                alt="Cireng">
+
+                            <div class="menu-content">
+
+                                <h3>Cireng</h3>
+
+                                <p>
+                                    Cemilan dengan tekstur
+                                    renyah di luar dan kenyal.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp7.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Kentang Goreng -->
+                    <div class="col-sm-6 col-lg-3">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/cemilan/kentang-goreng.jpg"
+                                class="img-fluid menu-image"
+                                alt="Kentang goreng">
+
+                            <div class="menu-content">
+
+                                <h3>Kentang Goreng</h3>
+
+                                <p>
+                                    Kentang goreng renyah yang
+                                    cocok untuk menemani santai.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp10.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Sosis Bakar -->
+                    <div class="col-sm-6 col-lg-3">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/cemilan/sosis-bakar.jpg"
+                                class="img-fluid menu-image"
+                                alt="Sosis bakar">
+
+                            <div class="menu-content">
+
+                                <h3>Sosis Bakar</h3>
+
+                                <p>
+                                    Sosis bakar dengan rasa gurih
+                                    dan cocok sebagai cemilan.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp10.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================== -->
+        <!-- KATEGORI MINUMAN -->
+        <!-- ======================== -->
+
+        <section
+            id="minuman"
+            class="menu-section section-padding">
+
+            <div class="container">
+
+
+                <div class="category-title text-center">
+
+                    <p class="section-label">
+                        KATEGORI 3
+                    </p>
+
+                    <h2>
+                        🥤 Minuman
+                    </h2>
+
+                    <p>
+                        Minuman segar untuk melengkapi
+                        pilihan menu Anda.
+                    </p>
+
+                </div>
+
+
+                <div class="row justify-content-center">
+
+                    <!-- Es Kopyor -->
+                    <div class="col-sm-8 col-md-6 col-lg-4">
+
+                        <article class="menu-card">
+
+                            <img
+                                src="img/minuman/es-kopyor.jpg"
+                                class="img-fluid menu-image"
+                                alt="Es kopyor segar">
+
+                            <div class="menu-content">
+
+                                <h3>Es Kopyor</h3>
+
+                                <p>
+                                    Minuman es kopyor yang segar
+                                    untuk menemani hidangan Anda.
+                                </p>
+
+                                <p class="menu-price">
+                                    Rp8.000
+                                </p>
+
+                                <a
+                                    href="pemesanan.html"
+                                    class="btn btn-menu">
+                                    Pesan
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================== -->
+        <!-- TABEL DAFTAR MENU -->
+        <!-- ======================== -->
+
+        <section class="table-section section-padding">
+
+            <div class="container">
+
+
+                <div class="section-heading text-center">
+
+                    <p class="section-label">
+                        DAFTAR HARGA
+                    </p>
+
+                    <h2>
+                        Daftar Menu Warung Bu Lina
+                    </h2>
+
+                </div>
+
+
+                <div class="table-responsive">
+
+                    <table class="table menu-table">
+
+                        <caption>
+                            Daftar menu dan harga Warung Makan Bu Lina
+                        </caption>
+
+
+                        <thead>
+
+                            <tr>
+                                <th scope="col">No.</th>
+                                <th scope="col">Kategori</th>
+                                <th scope="col">Nama Menu</th>
+                                <th scope="col">Harga</th>
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Makanan</td>
+                                <td>Seblak</td>
+                                <td>Rp10.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Makanan</td>
+                                <td>Mie Level</td>
+                                <td>Rp12.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Makanan</td>
+                                <td>Mie Tek Tek</td>
+                                <td>Rp12.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>Cemilan</td>
+                                <td>Tahu Gejrot</td>
+                                <td>Rp8.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>Cemilan</td>
+                                <td>Cireng</td>
+                                <td>Rp7.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>6</td>
+                                <td>Cemilan</td>
+                                <td>Kentang Goreng</td>
+                                <td>Rp10.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>7</td>
+                                <td>Cemilan</td>
+                                <td>Sosis Bakar</td>
+                                <td>Rp10.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>8</td>
+                                <td>Minuman</td>
+                                <td>Es Kopyor</td>
+                                <td>Rp8.000</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section">
+
+            <div class="container text-center">
+
+                <p class="section-label">
+                    SIAP MEMESAN?
+                </p>
+
+                <h2>
+                    Sudah Menemukan Menu Favoritmu?
+                </h2>
+
+                <p>
+                    Lanjutkan ke halaman pemesanan untuk
+                    melakukan pemesanan menu pilihan Anda.
+                </p>
+
+                <a
+                    href="pemesanan.html"
+                    class="btn btn-cta">
+
+                    Pesan Sekarang
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+
+                    <h2>
+                        🍃 Warung Makan Bu Lina
+                    </h2>
+
+                    <p>
+                        Makan enak, harga bersahabat.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h3>Navigasi</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">
+                                Beranda
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">
+                                Menu
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="promo.html">
+                                Promo
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h3>Kategori Menu</h3>
+
+                    <ul class="footer-links">
+
+                        <li>Makanan</li>
+                        <li>Cemilan</li>
+                        <li>Minuman</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <hr>
+
+
+            <p class="text-center mb-0">
+
+                &copy; 2026 Warung Makan Bu Lina.
+                Semua Hak Dilindungi.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
 </body>
 </html>
