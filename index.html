@@ -1,23 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Warung Makan Bu Lina | Cita Rasa Rumahan</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Nikmati aneka makanan rumahan, minuman segar, dan cemilan favorit di Warung Makan Bu Lina. Temukan menu dan pesan hidangan favorit Anda.">
+    <meta name="description"
+          content="Warung Makan Bu Lina menyediakan makanan, cemilan, dan minuman dengan cita rasa lezat.">
+
+    <title>Warung Makan Bu Lina | Beranda</title>
 
     <!-- Bootstrap 5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Custom CSS -->
+    <!-- CSS Buatan Sendiri -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -28,17 +27,24 @@
         Lewati ke konten utama
     </a>
 
-    <!-- Header -->
+
+    <!-- HEADER -->
     <header class="site-header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <nav class="navbar navbar-expand-lg">
+
             <div class="container">
 
-                <a class="navbar-brand fw-bold" href="index.html">
-                    <span class="brand-icon">🍃</span>
-                    Warung Bu Lina
+                <!-- Logo / Nama Warung -->
+                <a class="navbar-brand" href="index.html">
+                    🍃 Warung Bu Lina
                 </a>
 
-                <button class="navbar-toggler" type="button"
+
+                <!-- Tombol Navbar Mobile -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarUtama"
                     aria-controls="navbarUtama"
@@ -46,440 +52,659 @@
                     aria-label="Buka navigasi">
 
                     <span class="navbar-toggler-icon"></span>
+
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarUtama">
 
-                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                <!-- Menu Navigasi -->
+                <div class="collapse navbar-collapse"
+                     id="navbarUtama">
+
+                    <ul class="navbar-nav ms-auto">
 
                         <li class="nav-item">
                             <a class="nav-link active"
-                               href="index.html"
-                               aria-current="page">Beranda</a>
+                               aria-current="page"
+                               href="index.html">
+                                Beranda
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menu</a>
+                            <a class="nav-link"
+                               href="menu.html">
+                                Menu
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="promo.html">Promo</a>
+                            <a class="nav-link"
+                               href="promo.html">
+                                Promo
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="tentang.html">Tentang Kami</a>
+                            <a class="nav-link"
+                               href="tentang.html">
+                                Tentang Kami
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="btn btn-order ms-lg-2"
-                               href="pemesanan.html">Pesan Sekarang</a>
+                            <a class="btn btn-pesan"
+                               href="pemesanan.html">
+                                Pesan Sekarang
+                            </a>
                         </li>
 
                     </ul>
+
                 </div>
+
             </div>
+
         </nav>
+
     </header>
 
-    <!-- Main Content -->
+
+    <!-- MAIN -->
     <main id="konten-utama">
 
-        <!-- Hero Section -->
+
+        <!-- HERO -->
         <section class="hero-section">
+
             <div class="container">
+
                 <div class="row align-items-center g-5">
 
+                    <!-- Hero Text -->
                     <div class="col-lg-6">
-                        <span class="hero-label">
-                            🍽️ Selamat Datang di Warung Bu Lina
-                        </span>
 
-                        <h1 class="hero-title">
-                            Cita Rasa Rumahan,
-                            <span>Selalu Bikin Rindu.</span>
+                        <p class="hero-label">
+                            🍽️ Selamat Datang di Warung Bu Lina
+                        </p>
+
+                        <h1>
+                            Makan Enak,
+                            <span>Harga Bersahabat.</span>
                         </h1>
 
                         <p class="hero-description">
-                            Nikmati berbagai pilihan makanan lezat,
-                            minuman segar, dan cemilan favorit
-                            dengan cita rasa khas masakan rumahan.
+                            Warung Makan Bu Lina menyediakan berbagai
+                            pilihan makanan, cemilan, dan minuman
+                            untuk menemani waktu santai Anda.
                         </p>
 
-                        <div class="hero-actions">
-                            <a href="menu.html" class="btn btn-primary-custom">
+                        <div class="hero-button">
+
+                            <a href="#kategori-menu"
+                               class="btn btn-utama">
                                 Lihat Menu
                             </a>
 
-                            <a href="pemesanan.html" class="btn btn-outline-custom">
+                            <a href="pemesanan.html"
+                               class="btn btn-kedua">
                                 Pesan Sekarang
                             </a>
+
                         </div>
 
-                        <div class="hero-info">
-                            <div>
-                                <strong>3</strong>
-                                <span>Kategori Menu</span>
-                            </div>
-
-                            <div>
-                                <strong>Lezat</strong>
-                                <span>Cita Rasa Rumahan</span>
-                            </div>
-
-                            <div>
-                                <strong>Nyaman</strong>
-                                <span>Untuk Semua</span>
-                            </div>
-                        </div>
                     </div>
 
+
+                    <!-- Hero Image -->
                     <div class="col-lg-6">
+
                         <figure class="hero-image-wrapper">
 
                             <img
-                                src="img/hero-warung.jpg"
-                                class="hero-image img-fluid"
-                                alt="Hidangan makanan rumahan khas Warung Makan Bu Lina"
-                                width="650"
-                                height="500">
+                                src="img/hero/hero-warung.jpg"
+                                class="img-fluid hero-image"
+                                alt="Berbagai hidangan Warung Makan Bu Lina">
 
-                            <figcaption class="hero-caption">
-                                Hidangan lezat untuk menemani hari Anda.
+                            <figcaption>
+                                Hidangan lezat Warung Makan Bu Lina.
                             </figcaption>
 
                         </figure>
+
                     </div>
 
                 </div>
+
             </div>
+
         </section>
 
-        <!-- Advantages Section -->
-        <section class="advantages-section section-padding">
+
+        <!-- KATEGORI MENU -->
+        <section id="kategori-menu"
+                 class="menu-section section-padding">
+
+            <div class="container">
+
+
+                <!-- Judul -->
+                <div class="section-heading text-center">
+
+                    <p class="section-label">
+                        MENU KAMI
+                    </p>
+
+                    <h2>
+                        Pilihan Menu Warung Bu Lina
+                    </h2>
+
+                    <p>
+                        Pilih makanan, cemilan, atau minuman
+                        favorit Anda.
+                    </p>
+
+                </div>
+
+
+                <!-- ==================== -->
+                <!-- KATEGORI MAKANAN -->
+                <!-- ==================== -->
+
+                <div class="menu-category">
+
+                    <div class="category-title">
+
+                        <h2>🍛 Makanan</h2>
+
+                        <p>
+                            Menu makanan dengan cita rasa
+                            lezat dan menggugah selera.
+                        </p>
+
+                    </div>
+
+
+                    <div class="row g-4">
+
+
+                        <!-- Seblak -->
+                        <div class="col-md-4">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/makanan/seblak.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Seblak">
+
+                                <div class="menu-content">
+
+                                    <h3>Seblak</h3>
+
+                                    <p>
+                                        Seblak dengan rasa gurih
+                                        dan pilihan tingkat kepedasan.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <!-- Mie Level -->
+                        <div class="col-md-4">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/makanan/mie-level.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Mie level">
+
+                                <div class="menu-content">
+
+                                    <h3>Mie Level</h3>
+
+                                    <p>
+                                        Mie dengan pilihan tingkat
+                                        kepedasan sesuai selera Anda.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <!-- Mie Tek Tek -->
+                        <div class="col-md-4">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/makanan/mie-tek-tek.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Mie tek tek">
+
+                                <div class="menu-content">
+
+                                    <h3>Mie Tek Tek</h3>
+
+                                    <p>
+                                        Mie tek tek dengan cita rasa
+                                        gurih dan bumbu khas.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================== -->
+                <!-- KATEGORI CEMILAN -->
+                <!-- ==================== -->
+
+                <div class="menu-category">
+
+                    <div class="category-title">
+
+                        <h2>🍟 Cemilan</h2>
+
+                        <p>
+                            Cemilan lezat untuk menemani
+                            waktu santai Anda.
+                        </p>
+
+                    </div>
+
+
+                    <div class="row g-4">
+
+
+                        <!-- Tahu Gejrot -->
+                        <div class="col-sm-6 col-lg-3">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/cemilan/tahu-gejrot.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Tahu gejrot">
+
+                                <div class="menu-content">
+
+                                    <h3>Tahu Gejrot</h3>
+
+                                    <p>
+                                        Tahu dengan kuah khas
+                                        yang segar dan lezat.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <!-- Cireng -->
+                        <div class="col-sm-6 col-lg-3">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/cemilan/cireng.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Cireng">
+
+                                <div class="menu-content">
+
+                                    <h3>Cireng</h3>
+
+                                    <p>
+                                        Cemilan dengan tekstur
+                                        renyah dan kenyal.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <!-- Kentang Goreng -->
+                        <div class="col-sm-6 col-lg-3">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/cemilan/kentang-goreng.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Kentang goreng">
+
+                                <div class="menu-content">
+
+                                    <h3>Kentang Goreng</h3>
+
+                                    <p>
+                                        Kentang goreng yang renyah
+                                        dan cocok untuk cemilan.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <!-- Sosis Bakar -->
+                        <div class="col-sm-6 col-lg-3">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/cemilan/sosis-bakar.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Sosis bakar">
+
+                                <div class="menu-content">
+
+                                    <h3>Sosis Bakar</h3>
+
+                                    <p>
+                                        Sosis bakar dengan rasa
+                                        gurih dan lezat.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================== -->
+                <!-- KATEGORI MINUMAN -->
+                <!-- ==================== -->
+
+                <div class="menu-category">
+
+                    <div class="category-title">
+
+                        <h2>🥤 Minuman</h2>
+
+                        <p>
+                            Minuman segar untuk melengkapi
+                            hidangan Anda.
+                        </p>
+
+                    </div>
+
+
+                    <div class="row justify-content-center">
+
+                        <!-- Es Kopyor -->
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+
+                            <article class="menu-card">
+
+                                <img
+                                    src="img/minuman/es-kopyor.jpg"
+                                    class="img-fluid menu-image"
+                                    alt="Es kopyor segar">
+
+                                <div class="menu-content">
+
+                                    <h3>Es Kopyor</h3>
+
+                                    <p>
+                                        Minuman es kopyor segar
+                                        yang cocok dinikmati kapan saja.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tombol ke Menu -->
+                <div class="text-center mt-5">
+
+                    <a href="menu.html"
+                       class="btn btn-utama">
+
+                        Lihat Detail Menu
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- KEUNGGULAN -->
+        <section class="keunggulan-section section-padding">
+
             <div class="container">
 
                 <div class="section-heading text-center">
-                    <span class="section-label">Kenapa Memilih Kami?</span>
 
-                    <h2>Kenikmatan dalam Setiap Hidangan</h2>
-
-                    <p>
-                        Kami berusaha memberikan pengalaman makan
-                        yang nyaman dengan hidangan yang menggugah selera.
+                    <p class="section-label">
+                        KEUNGGULAN KAMI
                     </p>
+
+                    <h2>
+                        Kenapa Memilih Warung Bu Lina?
+                    </h2>
+
                 </div>
+
 
                 <div class="row g-4">
 
-                    <div class="col-md-4">
-                        <article class="advantage-card">
-                            <div class="advantage-icon">🍲</div>
 
-                            <h3>Cita Rasa Rumahan</h3>
+                    <div class="col-md-4">
+
+                        <article class="keunggulan-card">
+
+                            <div class="keunggulan-icon">
+                                🍲
+                            </div>
+
+                            <h3>Menu Lezat</h3>
 
                             <p>
-                                Menghadirkan pilihan hidangan dengan
-                                konsep masakan rumahan yang lezat.
+                                Pilihan menu yang cocok untuk
+                                menemani waktu makan dan bersantai.
                             </p>
+
                         </article>
+
                     </div>
 
-                    <div class="col-md-4">
-                        <article class="advantage-card">
-                            <div class="advantage-icon">🥬</div>
 
-                            <h3>Menu Beragam</h3>
+                    <div class="col-md-4">
+
+                        <article class="keunggulan-card">
+
+                            <div class="keunggulan-icon">
+                                💰
+                            </div>
+
+                            <h3>Harga Bersahabat</h3>
 
                             <p>
-                                Tersedia berbagai pilihan makanan,
-                                minuman, dan cemilan untuk pelanggan.
+                                Nikmati berbagai pilihan menu
+                                dengan harga yang terjangkau.
                             </p>
+
                         </article>
+
                     </div>
 
+
                     <div class="col-md-4">
-                        <article class="advantage-card">
-                            <div class="advantage-icon">❤️</div>
+
+                        <article class="keunggulan-card">
+
+                            <div class="keunggulan-icon">
+                                ❤️
+                            </div>
 
                             <h3>Pelayanan Ramah</h3>
 
                             <p>
-                                Mengutamakan kenyamanan pelanggan
-                                dalam menikmati setiap hidangan.
+                                Kami berusaha memberikan pelayanan
+                                yang nyaman untuk setiap pelanggan.
                             </p>
-                        </article>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured Menu -->
-        <section class="featured-section section-padding">
-            <div class="container">
-
-                <div class="section-heading text-center">
-                    <span class="section-label">Pilihan Favorit</span>
-
-                    <h2>Menu Andalan Bu Lina</h2>
-
-                    <p>
-                        Temukan hidangan favorit yang siap
-                        menemani waktu makan Anda.
-                    </p>
-                </div>
-
-                <div class="row g-4">
-
-                    <div class="col-md-4">
-                        <article class="menu-card">
-
-                            <img
-                                src="img/makanan/nasi-goreng.jpg"
-                                class="menu-card-image"
-                                alt="Nasi goreng dengan telur dan pelengkap"
-                                width="400"
-                                height="300"
-                                loading="lazy">
-
-                            <div class="menu-card-content">
-                                <span class="menu-category">Makanan</span>
-
-                                <h3>Nasi Goreng</h3>
-
-                                <p>
-                                    Nasi goreng dengan bumbu pilihan
-                                    dan pelengkap yang menggugah selera.
-                                </p>
-
-                                <a href="menu.html" class="menu-link">
-                                    Lihat Menu →
-                                </a>
-                            </div>
 
                         </article>
+
                     </div>
 
-                    <div class="col-md-4">
-                        <article class="menu-card">
 
-                            <img
-                                src="img/minuman/es-teh.jpg"
-                                class="menu-card-image"
-                                alt="Segelas es teh manis yang menyegarkan"
-                                width="400"
-                                height="300"
-                                loading="lazy">
-
-                            <div class="menu-card-content">
-                                <span class="menu-category">Minuman</span>
-
-                                <h3>Es Teh Manis</h3>
-
-                                <p>
-                                    Minuman teh segar dengan rasa
-                                    manis yang pas untuk menemani makan.
-                                </p>
-
-                                <a href="menu.html" class="menu-link">
-                                    Lihat Menu →
-                                </a>
-                            </div>
-
-                        </article>
-                    </div>
-
-                    <div class="col-md-4">
-                        <article class="menu-card">
-
-                            <img
-                                src="img/cemilan/pisang-goreng.jpg"
-                                class="menu-card-image"
-                                alt="Pisang goreng renyah sebagai cemilan"
-                                width="400"
-                                height="300"
-                                loading="lazy">
-
-                            <div class="menu-card-content">
-                                <span class="menu-category">Cemilan</span>
-
-                                <h3>Pisang Goreng</h3>
-
-                                <p>
-                                    Cemilan pisang goreng dengan
-                                    tekstur renyah dan rasa manis.
-                                </p>
-
-                                <a href="menu.html" class="menu-link">
-                                    Lihat Menu →
-                                </a>
-                            </div>
-
-                        </article>
-                    </div>
-
-                </div>
-
-                <div class="text-center mt-5">
-                    <a href="menu.html" class="btn btn-primary-custom">
-                        Lihat Semua Menu
-                    </a>
                 </div>
 
             </div>
+
         </section>
 
-        <!-- Testimonial Section -->
-        <section class="testimonial-section section-padding">
-            <div class="container">
 
-                <div class="section-heading text-center">
-                    <span class="section-label">Cerita Pelanggan</span>
-
-                    <h2>Kesan dari Pelanggan Kami</h2>
-
-                    <p>
-                        Pengalaman pelanggan menjadi motivasi
-                        untuk terus memberikan pelayanan terbaik.
-                    </p>
-                </div>
-
-                <div class="row g-4">
-
-                    <div class="col-md-4">
-                        <article class="testimonial-card">
-                            <div class="testimonial-stars"
-                                 aria-label="5 dari 5 bintang">
-                                ★★★★★
-                            </div>
-
-                            <blockquote>
-                                "Makanannya enak dan suasananya
-                                nyaman. Cocok untuk makan bersama."
-                            </blockquote>
-
-                            <p class="testimonial-author">
-                                - Pelanggan 1
-                            </p>
-                        </article>
-                    </div>
-
-                    <div class="col-md-4">
-                        <article class="testimonial-card">
-                            <div class="testimonial-stars"
-                                 aria-label="5 dari 5 bintang">
-                                ★★★★★
-                            </div>
-
-                            <blockquote>
-                                "Pilihan menunya beragam dan
-                                minumannya menyegarkan."
-                            </blockquote>
-
-                            <p class="testimonial-author">
-                                - Pelanggan 2
-                            </p>
-                        </article>
-                    </div>
-
-                    <div class="col-md-4">
-                        <article class="testimonial-card">
-                            <div class="testimonial-stars"
-                                 aria-label="5 dari 5 bintang">
-                                ★★★★★
-                            </div>
-
-                            <blockquote>
-                                "Tempat makan yang nyaman untuk
-                                menikmati hidangan rumahan."
-                            </blockquote>
-
-                            <p class="testimonial-author">
-                                - Pelanggan 3
-                            </p>
-                        </article>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Section -->
+        <!-- CTA -->
         <section class="cta-section">
-            <div class="container">
 
-                <div class="cta-content text-center">
-                    <span class="section-label">Saatnya Menikmati Hidangan</span>
+            <div class="container text-center">
 
-                    <h2>Sudah Menentukan Menu Favoritmu?</h2>
+                <p class="section-label">
+                    PESAN SEKARANG
+                </p>
 
-                    <p>
-                        Kunjungi katalog kami dan pilih hidangan
-                        yang ingin Anda nikmati.
-                    </p>
+                <h2>
+                    Sudah Menentukan Pilihanmu?
+                </h2>
 
-                    <a href="pemesanan.html" class="btn btn-cta">
-                        Mulai Pemesanan
-                    </a>
-                </div>
+                <p>
+                    Pilih menu favorit Anda dan lakukan pemesanan
+                    melalui halaman pemesanan kami.
+                </p>
+
+                <a href="pemesanan.html"
+                   class="btn btn-cta">
+
+                    Pesan Sekarang
+
+                </a>
 
             </div>
+
         </section>
 
     </main>
 
-    <!-- Footer -->
+
+    <!-- FOOTER -->
     <footer class="site-footer">
+
         <div class="container">
 
             <div class="row g-4">
 
-                <div class="col-md-5">
-                    <h2 class="footer-brand">
+
+                <div class="col-md-6">
+
+                    <h2>
                         🍃 Warung Makan Bu Lina
                     </h2>
 
                     <p>
-                        Cita rasa rumahan yang menghadirkan
-                        kehangatan dalam setiap hidangan.
+                        Makan enak, harga bersahabat.
                     </p>
+
                 </div>
+
 
                 <div class="col-md-3">
-                    <h3>Menu Website</h3>
+
+                    <h3>Navigasi</h3>
 
                     <ul class="footer-links">
-                        <li><a href="index.html">Beranda</a></li>
-                        <li><a href="menu.html">Katalog Menu</a></li>
-                        <li><a href="promo.html">Promo</a></li>
-                        <li><a href="tentang.html">Tentang Kami</a></li>
+
+                        <li>
+                            <a href="index.html">Beranda</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="promo.html">Promo</a>
+                        </li>
+
                     </ul>
+
                 </div>
 
-                <div class="col-md-4">
-                    <h3>Informasi</h3>
+
+                <div class="col-md-3">
+
+                    <h3>Menu Kami</h3>
 
                     <ul class="footer-links">
-                        <li>Warung Makan Lokal</li>
-                        <li>Makanan, Minuman, dan Cemilan</li>
-                        <li>Pelayanan Ramah</li>
+
+                        <li>Makanan</li>
+                        <li>Cemilan</li>
+                        <li>Minuman</li>
+
                     </ul>
+
                 </div>
 
             </div>
 
-            <div class="footer-bottom">
-                <p>
-                    &copy; 2026 Warung Makan Bu Lina.
-                    Seluruh hak cipta dilindungi.
-                </p>
-            </div>
+
+            <hr>
+
+
+            <p class="text-center mb-0">
+
+                &copy; 2026 Warung Makan Bu Lina.
+                Semua Hak Dilindungi.
+
+            </p>
 
         </div>
+
     </footer>
 
-    <!-- Bootstrap JavaScript bawaan framework -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
 
 </body>
 </html>
