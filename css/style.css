@@ -625,7 +625,7 @@ input:invalid:not(:placeholder-shown) {
 .menu-card-image {
     display: block;
     width: 100%;
-    height: 200px;
+    height: 400px;
     object-fit: cover;
     object-position: center;
     background-color: #F7F2E8;
