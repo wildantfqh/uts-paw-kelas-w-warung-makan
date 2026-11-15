@@ -1,0 +1,689 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Pesan makanan, minuman, dan cemilan favorit Anda melalui formulir pemesanan Warung Makan Bu Lina.">
+
+    <title>Pemesanan - Warung Makan Bu Lina</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- SKIP LINK -->
+    <a href="#konten-utama" class="skip-link">
+        Lewati ke konten utama
+    </a>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark container"
+             aria-label="Menu utama">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                🍃 Warung Makan Bu Lina
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Buka navigasi">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Beranda
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">
+                            Menu
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="promo.html">
+                            Promo
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentang.html">
+                            Tentang Kami
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           href="pemesanan.html"
+                           aria-current="page">
+                            Pemesanan
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main id="konten-utama">
+
+
+        <!-- HERO PEMESANAN -->
+        <section class="order-hero">
+
+            <div class="container text-center">
+
+                <span class="section-label">
+                    🍽️ Layanan Pemesanan Bu Lina
+                </span>
+
+                <h1>
+                    Formulir Pemesanan
+                </h1>
+
+                <p>
+                    Silakan lengkapi informasi berikut untuk
+                    memesan makanan, minuman, dan cemilan
+                    favorit Anda.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FORM PEMESANAN -->
+        <section class="order-section">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-8">
+
+                        <div class="order-form-card">
+
+                            <div class="order-form-heading">
+
+                                <h2>Informasi Pemesanan</h2>
+
+                                <p>
+                                    Lengkapi data pelanggan dan
+                                    pilihan menu yang ingin dipesan.
+                                </p>
+
+                                <small>
+                                    Tanda (*) menunjukkan kolom
+                                    yang wajib diisi.
+                                </small>
+
+                            </div>
+
+
+                            <!-- FORM -->
+                            <form
+                                action="terimakasih.html"
+                                method="get"
+                                autocomplete="on">
+
+
+                                <!-- 1. INFORMASI PELANGGAN -->
+                                <fieldset class="order-fieldset">
+
+                                    <legend>
+                                        1. Informasi Pelanggan
+                                    </legend>
+
+
+                                    <!-- NAMA -->
+                                    <div class="mb-3">
+
+                                        <label for="nama" class="form-label">
+                                            Nama Lengkap *
+                                        </label>
+
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="nama"
+                                            name="nama"
+                                            placeholder="Masukkan nama lengkap"
+                                            autocomplete="name"
+                                            minlength="3"
+                                            maxlength="50"
+                                            required>
+
+                                    </div>
+
+
+                                    <!-- EMAIL -->
+                                    <div class="mb-3">
+
+                                        <label for="email" class="form-label">
+                                            Alamat Email *
+                                        </label>
+
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            name="email"
+                                            placeholder="nama@email.com"
+                                            autocomplete="email"
+                                            required>
+
+                                    </div>
+
+
+                                    <!-- WHATSAPP -->
+                                    <div class="mb-3">
+
+                                        <label for="telepon" class="form-label">
+                                            Nomor WhatsApp *
+                                        </label>
+
+                                        <input
+                                            type="tel"
+                                            class="form-control"
+                                            id="telepon"
+                                            name="telepon"
+                                            placeholder="081234567890"
+                                            autocomplete="tel"
+                                            inputmode="numeric"
+                                            pattern="08[0-9]{8,11}"
+                                            title="Nomor harus diawali 08 dan terdiri dari 10 sampai 13 angka."
+                                            required>
+
+                                        <small class="form-text">
+                                            Gunakan nomor Indonesia
+                                            yang diawali angka 08.
+                                        </small>
+
+                                    </div>
+
+                                </fieldset>
+
+
+                                <!-- 2. PILIHAN MENU -->
+                                <fieldset class="order-fieldset">
+
+                                    <legend>
+                                        2. Pilihan Menu
+                                    </legend>
+
+
+                                    <!-- KATEGORI -->
+                                    <div class="mb-3">
+
+                                        <label for="kategori" class="form-label">
+                                            Kategori Menu *
+                                        </label>
+
+                                        <select
+                                            class="form-select"
+                                            id="kategori"
+                                            name="kategori"
+                                            required>
+
+                                            <option value="">
+                                                Pilih kategori menu
+                                            </option>
+
+                                            <option value="Makanan">
+                                                Makanan
+                                            </option>
+
+                                            <option value="Minuman">
+                                                Minuman
+                                            </option>
+
+                                            <option value="Cemilan">
+                                                Cemilan
+                                            </option>
+
+                                        </select>
+
+                                    </div>
+
+
+                                    <!-- NAMA MENU -->
+                                    <div class="mb-3">
+
+                                        <label for="menu" class="form-label">
+                                            Nama Menu *
+                                        </label>
+
+                                        <select
+                                            class="form-select"
+                                            id="menu"
+                                            name="menu"
+                                            required>
+
+                                            <option value="">
+                                                Pilih menu yang dipesan
+                                            </option>
+
+                                            <optgroup label="Makanan">
+
+                                                <option value="Nasi Goreng">
+                                                    Nasi Goreng
+                                                </option>
+
+                                                <option value="Ayam Geprek">
+                                                    Ayam Geprek
+                                                </option>
+
+                                                <option value="Ayam Penyet">
+                                                    Ayam Penyet
+                                                </option>
+
+                                                <option value="Mie Goreng">
+                                                    Mie Goreng
+                                                </option>
+
+                                            </optgroup>
+
+                                            <optgroup label="Minuman">
+
+                                                <option value="Es Teh Manis">
+                                                    Es Teh Manis
+                                                </option>
+
+                                                <option value="Es Jeruk">
+                                                    Es Jeruk
+                                                </option>
+
+                                                <option value="Es Kopi Susu">
+                                                    Es Kopi Susu
+                                                </option>
+
+                                            </optgroup>
+
+                                            <optgroup label="Cemilan">
+
+                                                <option value="Pisang Goreng">
+                                                    Pisang Goreng
+                                                </option>
+
+                                                <option value="Tahu Crispy">
+                                                    Tahu Crispy
+                                                </option>
+
+                                                <option value="Tempe Mendoan">
+                                                    Tempe Mendoan
+                                                </option>
+
+                                            </optgroup>
+
+                                        </select>
+
+                                        <small class="form-text">
+                                            Pilih kategori dan nama menu
+                                            yang sesuai.
+                                        </small>
+
+                                    </div>
+
+
+                                    <!-- JUMLAH -->
+                                    <div class="mb-3">
+
+                                        <label for="jumlah" class="form-label">
+                                            Jumlah Pesanan *
+                                        </label>
+
+                                        <input
+                                            type="number"
+                                            class="form-control"
+                                            id="jumlah"
+                                            name="jumlah"
+                                            min="1"
+                                            max="20"
+                                            value="1"
+                                            inputmode="numeric"
+                                            required>
+
+                                        <small class="form-text">
+                                            Minimal 1 dan maksimal
+                                            20 pesanan.
+                                        </small>
+
+                                    </div>
+
+
+                                    <!-- TANGGAL -->
+                                    <div class="mb-3">
+
+                                        <label for="tanggal" class="form-label">
+                                            Tanggal Pemesanan *
+                                        </label>
+
+                                        <input
+                                            type="date"
+                                            class="form-control"
+                                            id="tanggal"
+                                            name="tanggal"
+                                            required>
+
+                                    </div>
+
+                                </fieldset>
+
+
+                                <!-- 3. METODE PENGAMBILAN -->
+                                <fieldset class="order-fieldset">
+
+                                    <legend>
+                                        3. Metode Pengambilan
+                                    </legend>
+
+                                    <p class="form-label">
+                                        Pilih metode pengambilan pesanan *
+                                    </p>
+
+
+                                    <div class="form-check mb-2">
+
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="pengambilan"
+                                            id="makan"
+                                            value="Makan di tempat"
+                                            required>
+
+                                        <label
+                                            class="form-check-label"
+                                            for="makan">
+
+                                            Makan di tempat
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div class="form-check mb-2">
+
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="pengambilan"
+                                            id="bungkus"
+                                            value="Dibungkus">
+
+                                        <label
+                                            class="form-check-label"
+                                            for="bungkus">
+
+                                            Dibungkus
+
+                                        </label>
+
+                                    </div>
+
+                                </fieldset>
+
+
+                                <!-- 4. TAMBAHAN PESANAN -->
+                                <fieldset class="order-fieldset">
+
+                                    <legend>
+                                        4. Tambahan Pesanan
+                                    </legend>
+
+
+                                    <div class="form-check mb-2">
+
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="alat-makan"
+                                            name="tambahan[]"
+                                            value="Alat makan">
+
+                                        <label
+                                            class="form-check-label"
+                                            for="alat-makan">
+
+                                            Tambahan alat makan
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <div class="form-check mb-2">
+
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="sambal"
+                                            name="tambahan[]"
+                                            value="Sambal tambahan">
+
+                                        <label
+                                            class="form-check-label"
+                                            for="sambal">
+
+                                            Sambal tambahan
+
+                                        </label>
+
+                                    </div>
+
+                                </fieldset>
+
+
+                                <!-- 5. CATATAN -->
+                                <fieldset class="order-fieldset">
+
+                                    <legend>
+                                        5. Catatan Tambahan
+                                    </legend>
+
+                                    <div class="mb-3">
+
+                                        <label for="catatan" class="form-label">
+                                            Catatan Pesanan
+                                        </label>
+
+                                        <textarea
+                                            class="form-control"
+                                            id="catatan"
+                                            name="catatan"
+                                            rows="4"
+                                            maxlength="300"
+                                            placeholder="Contoh: Tidak pedas, sambal dipisah, dan sebagainya."></textarea>
+
+                                        <small class="form-text">
+                                            Maksimal 300 karakter.
+                                            Kolom ini boleh dikosongkan.
+                                        </small>
+
+                                    </div>
+
+                                </fieldset>
+
+
+                                <!-- TOMBOL FORM -->
+                                <div class="order-form-actions">
+
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary-custom">
+
+                                        Kirim Pesanan
+
+                                    </button>
+
+                                    <button
+                                        type="reset"
+                                        class="btn btn-reset-custom">
+
+                                        Reset Form
+
+                                    </button>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- INFORMASI TAMBAHAN -->
+        <section class="order-information">
+
+            <div class="container text-center">
+
+                <span class="section-label">
+                    Warung Makan Bu Lina
+                </span>
+
+                <h2>
+                    Terima Kasih Telah Memilih Kami
+                </h2>
+
+                <p>
+                    Kami siap menemani waktu makan Anda
+                    dengan berbagai pilihan hidangan rumahan.
+                </p>
+
+                <a href="menu.html" class="btn btn-outline-custom">
+                    Lihat Katalog Menu
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-5">
+
+                    <h2 class="footer-brand">
+                        🍃 Warung Makan Bu Lina
+                    </h2>
+
+                    <p>
+                        Cita rasa rumahan yang menghadirkan
+                        kehangatan dalam setiap hidangan.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h3>Menu Website</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Beranda</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">Katalog Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="promo.html">Promo</a>
+                        </li>
+
+                        <li>
+                            <a href="tentang.html">Tentang Kami</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <h3>Informasi</h3>
+
+                    <ul class="footer-links">
+
+                        <li>Warung Makan Lokal</li>
+
+                        <li>Makanan, Minuman, dan Cemilan</li>
+
+                        <li>
+                            <a href="pemesanan.html">
+                                Halaman Pemesanan
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy; 2026 Warung Makan Bu Lina.
+                    Seluruh hak cipta dilindungi.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
