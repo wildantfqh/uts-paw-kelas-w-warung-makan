@@ -1,12 +1,3 @@
-
-/* =========================================
-   WARUNG MAKAN BU LINA
-   CSS - PEMROGRAMAN ANTARMUKA WEB
-   ========================================= */
-
-
-/* 1. RESET DASAR */
-
 *, 
 *::before, 
 *::after {
@@ -46,8 +37,6 @@ p {
 }
 
 
-/* 2. SKIP LINK */
-
 .skip-link {
     position: absolute;
     top: -100px;
@@ -64,7 +53,6 @@ p {
 }
 
 
-/* 3. HEADER DAN NAVIGASI */
 
 .site-header {
     background-color: #28543B;
@@ -236,8 +224,6 @@ p {
 }
 
 
-/* 5. PENGATURAN SECTION */
-
 .section-padding {
     padding: 4rem 0;
 }
@@ -265,7 +251,6 @@ p {
 }
 
 
-/* 6. KEUNGGULAN WARUNG */
 
 .advantages-section {
     background-color: #FFFFFF;
@@ -296,7 +281,6 @@ p {
 
 
 
-/* 7. MENU FAVORIT */
 
 .featured-section {
     background-color: #F7F2E8;
@@ -311,7 +295,6 @@ p {
     box-shadow: 4px 4px 0 #76533B;
 }
 
-/* Ukuran gambar dibuat seragam */
 .menu-card-image {
     display: block;
     width: 100%;
@@ -320,13 +303,11 @@ p {
     object-position: center;
 }
 
-/* Area isi kartu */
 .menu-card-content {
     min-height: 225px;
     padding: 1.25rem;
 }
 
-/* Kategori */
 .menu-category {
     display: block;
     margin-bottom: 8px;
@@ -335,21 +316,18 @@ p {
     font-weight: 700;
 }
 
-/* Judul produk */
 .menu-card-content h3 {
     min-height: 30px;
     margin-bottom: 0.75rem;
     font-size: 1.25rem;
 }
 
-/* Deskripsi diseragamkan */
 .menu-card-content p {
     min-height: 4.8rem;
     margin-bottom: 1rem;
     line-height: 1.6;
 }
 
-/* Link menu */
 .menu-link {
     display: inline-block;
     color: #28543B;
@@ -363,7 +341,6 @@ p {
 
 
 
-/* 8. TESTIMONI PELANGGAN */
 
 .testimonial-section {
     background-color: #FFFFFF;
@@ -395,7 +372,6 @@ p {
 }
 
 
-/* 9. CALL TO ACTION */
 
 .cta-section {
     padding: 4rem 0;
@@ -431,7 +407,6 @@ p {
 }
 
 
-/* 10. FOOTER */
 
 .site-footer {
     padding: 3rem 0 1rem;
@@ -484,7 +459,6 @@ p {
 }
 
 
-/* 11. FOKUS KEYBOARD */
 
 a:focus-visible,
 button:focus-visible,
@@ -496,7 +470,6 @@ textarea:focus-visible {
 }
 
 
-/* 12. FORM DAN INPUT */
 
 input,
 select,
@@ -536,10 +509,8 @@ input:invalid:not(:placeholder-shown) {
 
 
 /* =========================================
-   HALAMAN KATALOG MENU
+    HALAMAN KATALOG MENU
 ========================================= */
-
-/* HERO KATALOG */
 
 .menu-page-hero {
     padding: 65px 0 55px;
@@ -575,8 +546,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* BAGIAN KATEGORI */
-
 .menu-category-section {
     background-color: #FFFFFF;
 }
@@ -603,8 +572,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* KARTU PRODUK */
-
 .menu-card {
     height: 100%;
     overflow: hidden;
@@ -620,8 +587,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* GAMBAR PRODUK */
-
 .menu-card-image {
     display: block;
     width: 100%;
@@ -631,8 +596,6 @@ input:invalid:not(:placeholder-shown) {
     background-color: #F7F2E8;
 }
 
-
-/* ISI KARTU */
 
 .menu-card-content {
     min-height: 205px;
@@ -669,8 +632,6 @@ input:invalid:not(:placeholder-shown) {
     font-weight: 800;
 }
 
-
-/* TABEL DAFTAR HARGA */
 
 .menu-price-section {
     background-color: #F7F2E8;
@@ -727,7 +688,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* CTA PEMESANAN */
 
 .menu-order-section {
     padding: 65px 0;
@@ -794,10 +754,8 @@ input:invalid:not(:placeholder-shown) {
 
 
 /* =========================================
-   HALAMAN PROMO
+    HALAMAN PROMO
 ========================================= */
-
-/* HERO PROMO */
 
 .promo-hero {
     padding: 75px 0 70px;
@@ -825,8 +783,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* BAGIAN PROMO */
-
 .promo-section {
     background-color: #FFFFFF;
 }
@@ -849,8 +805,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* KARTU PROMO */
-
 .promo-card {
     height: 100%;
     overflow: hidden;
@@ -866,8 +820,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* GAMBAR PROMO */
-
 .promo-card-image {
     display: block;
     width: 100%;
@@ -877,8 +829,6 @@ input:invalid:not(:placeholder-shown) {
     background-color: #F7F2E8;
 }
 
-
-/* ISI KARTU */
 
 .promo-card-content {
     min-height: 260px;
@@ -911,8 +861,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* HARGA DAN TOMBOL */
-
 .promo-card-bottom {
     padding-top: 12px;
     border-top: 1px solid #E5E7EB;
@@ -929,8 +877,6 @@ input:invalid:not(:placeholder-shown) {
     width: 100%;
 }
 
-
-/* SYARAT DAN KETENTUAN */
 
 .promo-terms {
     background-color: #F7F2E8;
@@ -977,8 +923,6 @@ input:invalid:not(:placeholder-shown) {
     border-bottom: none;
 }
 
-
-/* CTA PROMO */
 
 .promo-order-section {
     padding: 70px 0;
@@ -1048,10 +992,8 @@ input:invalid:not(:placeholder-shown) {
 
 
 /* =========================================
-   HALAMAN PEMESANAN
+    HALAMAN PEMESANAN
 ========================================= */
-
-/* HERO PEMESANAN */
 
 .order-hero {
     padding: 60px 0 45px;
@@ -1073,8 +1015,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* BAGIAN FORM */
-
 .order-section {
     padding: 55px 0 70px;
     background-color: #F7F2E8;
@@ -1088,8 +1028,6 @@ input:invalid:not(:placeholder-shown) {
     box-shadow: 4px 5px 0 #76533B;
 }
 
-
-/* JUDUL FORM */
 
 .order-form-heading {
     margin-bottom: 28px;
@@ -1115,8 +1053,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* FIELDSET */
-
 .order-fieldset {
     margin-bottom: 28px;
     padding-bottom: 22px;
@@ -1141,8 +1077,6 @@ input:invalid:not(:placeholder-shown) {
     font-weight: 600;
 }
 
-
-/* INPUT DAN SELECT */
 
 .order-form-card .form-control,
 .order-form-card .form-select {
@@ -1173,8 +1107,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
-/* RADIO DAN CHECKBOX */
-
 .order-form-card .form-check {
     margin-bottom: 12px;
 }
@@ -1197,8 +1129,6 @@ input:invalid:not(:placeholder-shown) {
     color: #475569;
 }
 
-
-/* TOMBOL FORM */
 
 .order-form-actions {
     display: flex;
@@ -1225,8 +1155,6 @@ input:invalid:not(:placeholder-shown) {
     color: #FFFFFF;
 }
 
-
-/* INFORMASI TAMBAHAN */
 
 .order-information {
     padding: 65px 0;
