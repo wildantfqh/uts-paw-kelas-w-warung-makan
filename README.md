@@ -3,7 +3,7 @@
 
 Website Warung Makan Bu Lina merupakan proyek website sederhana yang dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah. Website ini dirancang sebagai media informasi dan pemesanan makanan serta minuman dengan tampilan modern, minimalis, dan responsif.
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
 1. Wildan Taufiqul Hakim
    Npm : 06.2025.1.07879
@@ -11,14 +11,14 @@ Website Warung Makan Bu Lina merupakan proyek website sederhana yang dibuat untu
    Npm : 06.2025.1.07935
 3. Abdel Rozi Syahputra
    Npm : 06.2025.1.07919
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - HTML5 — Membuat struktur halaman website.
 - CSS3 — Mengatur tampilan dan desain website.
 - Bootstrap 5.3 — Membantu membuat layout responsif dan komponen website.
 - JavaScript — Mendukung beberapa interaksi pada website.
 
-## 🎨 Konsep Desain
+## Konsep Desain
 
 Website menggunakan konsep modern minimalis dengan kombinasi warna:
 
@@ -28,7 +28,7 @@ Website menggunakan konsep modern minimalis dengan kombinasi warna:
 
 Desain dibuat konsisten pada setiap halaman dengan menggunakan CSS khusus dan Bootstrap 5.3 untuk mendukung tampilan responsif.
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```text
 warung-makan-bu-lina/
@@ -50,7 +50,7 @@ warung-makan-bu-lina/
     └── promo/
 ```
 
-## 📄 Halaman Website
+## Halaman Website
 
 | Halaman | Keterangan |
 |---|---|
@@ -61,7 +61,7 @@ warung-makan-bu-lina/
 | `pemesanan.html` | Menyediakan formulir pemesanan |
 | `terimakasih.html` | Halaman konfirmasi setelah pemesanan |
 
-## 🚀 Cara Menjalankan Website
+## Cara Menjalankan Website
 
 1. Download atau clone repository proyek ini.
 2. Buka folder `warung-makan-bu-lina` menggunakan Visual Studio Code.
@@ -69,7 +69,7 @@ warung-makan-bu-lina/
 4. Jalankan file `index.html` menggunakan browser.
 5. Website dapat dijelajahi melalui menu navigasi yang tersedia.
 
-## ✨ Fitur Website
+## Fitur Website
 
 - Navigasi antarhalaman.
 - Tampilan daftar makanan, minuman, dan cemilan.
@@ -79,7 +79,7 @@ warung-makan-bu-lina/
 - Halaman konfirmasi pemesanan.
 - Tampilan responsif untuk berbagai ukuran layar.
 
-## 📝 Catatan
+## Catatan
 
 Website ini merupakan proyek pembelajaran yang dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS). Fitur pemesanan masih berupa simulasi tampilan formulir dan belum terhubung dengan database atau sistem pembayaran.
 
